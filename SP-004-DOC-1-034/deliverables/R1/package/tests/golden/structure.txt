@@ -1,0 +1,22 @@
+Structure check, top-50 candidates by E-value (frozen: results/structure_check.json)
+qualifying template: RCSB hit at E<=1e-10 with >=60% local coverage
+
+accession          template   coverage  identity
+MGYP007817750544   4EL8_1        0.703     0.568
+MGYP008986204075   1Q9H_1        0.649     0.502
+MGYP007533847829   4XNN_1        0.607     0.524
+MGYP004452933065   8FC0_1         0.62     0.606
+MGYP010246140987   1VRX_1        0.624     0.493
+MGYP006316071737   8FC0_1        0.652     0.786
+MGYP007332108226   5NBS_1        0.668     0.476
+MGYP003295828062   8ZU1_1        0.611     0.438
+MGYP009838452923   1L1Y_1        0.698     0.508
+MGYP009452294816   4XNN_1        0.647     0.517
+MGYP000631852215   6GJF_1        0.669     0.566
+MGYP010954435771   5IHS_1        0.633     0.556
+MGYP000802990414   8ZU1_1        0.619     0.479
+MGYP008111957652   4XNN_1        0.734      0.65
+MGYP000522590167   6GJF_1        0.605      0.53
+MGYP009092874914   5IHS_1        0.644      0.54
+
+16/50 top candidates have a qualifying template

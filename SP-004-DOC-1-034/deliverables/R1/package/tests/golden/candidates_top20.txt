@@ -1,0 +1,23 @@
+final candidates (F6_pass), sorted by min E-value
+
+accession          length       min E  max ref id family           closest reference       
+MGYP007817750544      888   1.62e-187      0.3303 GH48             Cthe_CelS_GH48          
+MGYP001480172483      744   4.71e-134      0.3235 GH5              Tfu_Cel5A_GH5           
+MGYP003860412909      616   5.48e-123      0.2639 GH5              Tfu_Cel5A_GH5           
+MGYP009441636802      513   1.79e-120      0.3827 GH5              Acel_E1_GH5             
+MGYP003292714441      773   6.85e-120      0.2637 GH5              Bsub_EG_GH5             
+MGYP008986204075      650   3.93e-119      0.3525 GH7              Tre_CBH1_GH7            
+MGYP007533847829      666   7.04e-119      0.3172 GH7              Tre_CBH1_GH7            
+MGYP008005695315      710   3.61e-118      0.3296 GH48             Cthe_CelS_GH48          
+MGYP004452933065      613   2.04e-114       0.339 GH5              Acel_E1_GH5             
+MGYP008065059304      861   9.22e-112      0.2568 GH5              Bsub_EG_GH5             
+MGYP010246140987      553   4.54e-107      0.2472 GH5              Acel_E1_GH5             
+MGYP006316071737      494   8.11e-106      0.3225 GH5              Acel_E1_GH5             
+MGYP000843571747      657    1.8e-105       0.303 GH5              Bsub_EG_GH5             
+MGYP008300845003      825   5.41e-105      0.2615 GH7              Tre_CBH1_GH7            
+MGYP007332108226      654   6.01e-105      0.2577 GH3              Aac_BGL1_GH3            
+MGYP001772861901      797   2.72e-102       0.291 GH5              Acel_E1_GH5             
+MGYP002628542596      691   1.96e-101      0.3219 GH5              Acel_E1_GH5             
+MGYP003295828062      684   2.98e-101      0.2595 GH48             Cthe_CelS_GH48          
+MGYP001437983540      619   3.94e-100      0.1805 GH48             Tre_CBH2_GH6            
+MGYP009755849479      796    1.58e-99      0.2549 GH5              Acel_E1_GH5             

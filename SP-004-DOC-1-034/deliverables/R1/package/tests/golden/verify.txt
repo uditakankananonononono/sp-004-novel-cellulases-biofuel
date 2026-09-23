@@ -1,0 +1,17 @@
+SP-004 (DOC-1-034 R1) frozen-output audit - sp004_audit v1.0.0
+mode: (a) read-only query/audit over frozen outputs; no science is recomputed from raw data
+
+[PASS] manifest - 47 files listed; 0 hash mismatches; 0 missing
+[PASS] inventory-exhaustive - every regular file is listed in MANIFEST.sha256 (self-manifest exempt); 0 unlisted
+[PASS] protocol-lock-hash - protocol.json SHA-256 a90624ce91b33a59519677523df712047c86e977cc863ae9a164bb117079c17d vs recorded a90624ce91b33a59519677523df712047c86e977cc863ae9a164bb117079c17d
+[PASS] gate-text - 6 locked gate strings identical in protocol.json and gate_evaluation.json
+[PASS] funnel-reference - recomputed {'hits': 12451, 'with_sequence': 12451, 'F1_pass': 9057, 'F2_pass': 5033, 'F3_pass': 3401, 'F4_pass': 3395, 'F6_pass': 1433} vs frozen {'hits': 12451, 'with_sequence': 12451, 'F1_pass': 9057, 'F2_pass': 5033, 'F3_pass': 3401, 'F4_pass': 3395, 'F6_pass': 1433}
+[PASS] funnel-decoy - recomputed {'hits': 1273, 'with_sequence': 1273, 'F1_pass': 848} vs frozen {'hits': 1273, 'with_sequence': 1273, 'F1_pass': 848}
+[PASS] gates-G1-G6 - recomputed {'G1': True, 'G2': True, 'G3': True, 'G4': True, 'G5': True, 'G6': True}; frozen checks {'G1': True, 'G2': True, 'G3': True, 'G4': True, 'G5': True, 'G6': True}; overall PASS
+[PASS] candidate-table-consistency - 1433/1433 F6_pass rows satisfy every locked filter definition verbatim
+[PASS] decoy-specificity - 0 of 1273 decoy-pool rows reached F6_pass
+[PASS] scrambled-controls - 5/5 scrambled controls with zero hits at E<=1e-10
+[PASS] cross-catalog-replication - 30 candidates; all at E<=1e-10 and <40% reference identity
+[PASS] uniprot-screen-consistency - 20 screens (14 with identity, 5 documented API-incident errors, 1 zero-hit, 3 already-in-UniProt); median identity 0.3607
+
+AUDIT RESULT: PASS (12/12 checks passed)

@@ -1,0 +1,17 @@
+candidate record (verbatim frozen row, results/candidates_ref.csv)
+
+accession              MGYP007817750544
+stage_reached          F6_pass
+length                 888
+min_evalue             1.62e-187
+max_ref_identity       0.3303
+novel_at_25            False
+novel_at_30            False
+novel_at_35            True
+novel_at_40            True
+catalytic_conserved    True
+closest_ref            Cthe_CelS_GH48
+refs                   Cthe_CelS_GH48
+pfam                   PF02011
+aliphatic_index        56.58
+cys                    8

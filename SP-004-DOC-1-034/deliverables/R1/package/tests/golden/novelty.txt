@@ -1,0 +1,8 @@
+Novelty of final candidates vs the 15 characterized references
+(predeclared sensitivity tabulation of frozen novel_at_* flags)
+
+max identity threshold                count      share
+<25% to every reference                1253      87.4%
+<30% to every reference                1389      96.9%
+<35% to every reference                1427      99.6%
+<40% to every reference                1433     100.0%

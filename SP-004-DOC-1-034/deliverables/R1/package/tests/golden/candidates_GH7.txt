@@ -1,0 +1,23 @@
+final candidates (F6_pass), sorted by min E-value
+
+accession          length       min E  max ref id family           closest reference       
+MGYP008986204075      650   3.93e-119      0.3525 GH7              Tre_CBH1_GH7            
+MGYP007533847829      666   7.04e-119      0.3172 GH7              Tre_CBH1_GH7            
+MGYP008300845003      825   5.41e-105      0.2615 GH7              Tre_CBH1_GH7            
+MGYP009452294816      485     1.4e-95      0.2984 GH7              Tre_CBH1_GH7            
+MGYP008111957652      354       6e-92      0.3162 GH7              Tre_CBH1_GH7            
+MGYP008791602168      673    4.17e-83      0.2209 GH7              Tre_CBH1_GH7            
+MGYP008992412512      255     2.5e-70        0.25 GH7              Tre_CBH1_GH7            
+MGYP003302188519      307    7.69e-66      0.2614 GH7              Tre_CBH1_GH7            
+MGYP008679911792      320    1.23e-60      0.2638 GH7              Hins_EG1_GH7            
+MGYP010818215726      319     1.7e-58      0.1944 GH7              Tre_CBH1_GH7            
+MGYP010315499975      187    1.03e-53      0.1976 GH7              Tre_CBH1_GH7            
+MGYP002058835814      209    3.05e-53      0.2157 GH7              Tre_CBH1_GH7            
+MGYP007248367414      253    3.33e-51      0.2154 GH7              Tre_CBH1_GH7            
+MGYP010797392847      227    3.48e-51      0.2233 GH7              Hins_EG1_GH7            
+MGYP011070467806      308    1.13e-49      0.2425 GH7              Tre_CBH1_GH7            
+MGYP010887326151      266     2.9e-47       0.215 GH7              Tre_CBH1_GH7            
+MGYP007432665428      219    3.63e-46      0.2098 GH7              Hins_EG1_GH7            
+MGYP010484791881      249    7.98e-45      0.2149 GH7              Tre_CBH1_GH7            
+MGYP000441912811      608    2.57e-44      0.2544 GH7              Tre_CBH1_GH7            
+MGYP000400829397      375    5.97e-43      0.2547 GH7              Tre_EG1_GH7             

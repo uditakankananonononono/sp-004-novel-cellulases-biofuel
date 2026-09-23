@@ -1,0 +1,111 @@
+[
+ {
+  "accession": "MGYP007817750544",
+  "best_uniprot": "A0A972GER8",
+  "best_uniprot_evalue": 2.5e-280,
+  "best_uniprot_identity": 0.3304
+ },
+ {
+  "accession": "MGYP001480172483",
+  "best_uniprot": "A0A370GNA7",
+  "best_uniprot_evalue": 0.0,
+  "best_uniprot_identity": 0.9973
+ },
+ {
+  "accession": "MGYP003860412909",
+  "best_uniprot": "A0A2T5PCH5",
+  "best_uniprot_evalue": 0.0,
+  "best_uniprot_identity": 0.9854
+ },
+ {
+  "accession": "MGYP009441636802",
+  "best_uniprot": "A0A0P6YGR8",
+  "best_uniprot_evalue": 2.32e-143,
+  "best_uniprot_identity": 0.4136
+ },
+ {
+  "accession": "MGYP003292714441",
+  "best_uniprot": "E9NSK2",
+  "best_uniprot_evalue": 5.27e-297,
+  "best_uniprot_identity": 0.5604
+ },
+ {
+  "accession": "MGYP008986204075",
+  "best_uniprot": "A0A409YGU4",
+  "best_uniprot_evalue": 0.0,
+  "best_uniprot_identity": 0.1941
+ },
+ {
+  "accession": "MGYP007533847829",
+  "best_uniprot": "A0A409YGU4",
+  "best_uniprot_evalue": 0.0,
+  "best_uniprot_identity": 0.1993
+ },
+ {
+  "accession": "MGYP008005695315",
+  "best_uniprot": "A0A1F4Y022",
+  "best_uniprot_evalue": 3.85e-167,
+  "best_uniprot_identity": 0.391
+ },
+ {
+  "accession": "MGYP004452933065",
+  "best_uniprot": "A0A6F8PJV8",
+  "best_uniprot_evalue": 0.0,
+  "best_uniprot_identity": 0.0265
+ },
+ {
+  "accession": "MGYP008065059304",
+  "best_uniprot": "A0A7X8SIG5",
+  "best_uniprot_evalue": 3.4e-137,
+  "best_uniprot_identity": 0.2228
+ },
+ {
+  "accession": "MGYP010246140987",
+  "best_uniprot": "A0A1Y1VER0",
+  "best_uniprot_evalue": 0.0,
+  "best_uniprot_identity": 0.8294
+ },
+ {
+  "accession": "MGYP006316071737",
+  "best_uniprot": "A0A6F8PJV8",
+  "best_uniprot_evalue": 3.59e-281,
+  "best_uniprot_identity": 0.0224
+ },
+ {
+  "accession": "MGYP000843571747",
+  "best_uniprot": "A0A7X7NE49",
+  "best_uniprot_evalue": 0.0,
+  "best_uniprot_identity": 1.0
+ },
+ {
+  "accession": "MGYP008300845003",
+  "best_uniprot": "A0A409YGU4",
+  "best_uniprot_evalue": 0.0,
+  "best_uniprot_identity": 0.2282
+ },
+ {
+  "accession": "MGYP007332108226",
+  "uniprot_hits_at_1e-40": 0,
+  "note": "original job nhits=84176 at E=1.0; none at E<=1e-40"
+ },
+ {
+  "accession": "MGYP001772861901",
+  "uniprot_screen_error": "job uniprot_861901 purged repeatedly"
+ },
+ {
+  "accession": "MGYP002628542596",
+  "uniprot_screen_error": "job uniprot_542596 purged repeatedly"
+ },
+ {
+  "accession": "MGYP003295828062",
+  "uniprot_screen_error": "job uniprot_828062 purged repeatedly"
+ },
+ {
+  "accession": "MGYP001437983540",
+  "uniprot_screen_error": "job uniprot_983540 purged repeatedly"
+ },
+ {
+  "accession": "MGYP009755849479",
+  "uniprot_screen_error": "job uniprot_849479 purged repeatedly"
+ }
+]

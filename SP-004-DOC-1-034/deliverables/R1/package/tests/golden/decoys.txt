@@ -1,0 +1,9 @@
+Decoy specificity pools (frozen: results/candidates_decoy.csv)
+three non-cellulase hydrolase queries through the identical funnel
+
+decoy pool                 rows  terminal stages
+Blic_amylase_decoy         1056  F1_fail 370, F2_fail 528, F2_not_evaluable 158
+Gal_lysozyme_decoy           59  F1_fail 25, F2_fail 34
+Tre_XYN1_decoy              158  F1_fail 30, F2_fail 128
+
+gate-counted decoy candidates (F6_pass): 0

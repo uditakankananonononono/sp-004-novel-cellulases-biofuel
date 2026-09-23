@@ -1,0 +1,26 @@
+UniProtKB novelty screen, top-20 candidates (frozen: results/uniprot_novelty_screen.json)
+
+accession          best homolog   identity  note
+MGYP007817750544   A0A972GER8       0.3304  
+MGYP001480172483   A0A370GNA7       0.9973  already in UniProt (metagenome-derived deposit)
+MGYP003860412909   A0A2T5PCH5       0.9854  already in UniProt (metagenome-derived deposit)
+MGYP009441636802   A0A0P6YGR8       0.4136  
+MGYP003292714441   E9NSK2           0.5604  
+MGYP008986204075   A0A409YGU4       0.1941  
+MGYP007533847829   A0A409YGU4       0.1993  
+MGYP008005695315   A0A1F4Y022       0.3910  
+MGYP004452933065   A0A6F8PJV8       0.0265  
+MGYP008065059304   A0A7X8SIG5       0.2228  
+MGYP010246140987   A0A1Y1VER0       0.8294  
+MGYP006316071737   A0A6F8PJV8       0.0224  
+MGYP000843571747   A0A7X7NE49       1.0000  already in UniProt (metagenome-derived deposit)
+MGYP008300845003   A0A409YGU4       0.2282  
+MGYP007332108226   -                     -  no UniProtKB hit at E<=1e-40
+MGYP001772861901   -                     -  EBI API incident; documented
+MGYP002628542596   -                     -  EBI API incident; documented
+MGYP003295828062   -                     -  EBI API incident; documented
+MGYP001437983540   -                     -  EBI API incident; documented
+MGYP009755849479   -                     -  EBI API incident; documented
+
+median best-homolog identity: 0.3607 over 14 completed screens with identity
+5 screens blocked by the documented EBI HMMER API incident (no gate depends on this screen)

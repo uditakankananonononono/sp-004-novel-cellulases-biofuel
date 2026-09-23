@@ -1,0 +1,46 @@
+{
+ "protocol_sha256": "a90624ce91b33a59519677523df712047c86e977cc863ae9a164bb117079c17d",
+ "locked_at": "2026-09-21T21:24:00+05:30",
+ "gate_text": [
+  "G1: reference build contains >= 12 live-verified characterized cellulases (met: 15)",
+  "G2: >= 40 distinct MGnify candidates pass F1, F2, F3, F4 and F6",
+  "G3: >= 15 of the G2 candidates have novelty < 30% to every reference",
+  "G4: >= 15 of the top-50 candidates examined in F5 have RCSB template E <= 1e-10 with >= 60% coverage",
+  "G5: >= 5 G2 candidates have aliphatic index >= the reference-panel median AND >= 2 cysteine residues",
+  "G6: decoy pools yield <= 10% as many gate-counted candidates as the reference pool"
+ ],
+ "metrics": {
+  "ref_hits": 12451,
+  "final_candidates": 1433,
+  "novel_lt30": 1389,
+  "structure_examined": 50,
+  "structure_ok": 16,
+  "thermostable": 1266,
+  "ref_median_aliphatic": 64.44,
+  "ref_yield_per_query": 95.53333333333333,
+  "decoy_yield_per_query": 0.0,
+  "decoy_funnel": {
+   "hits": 1273,
+   "with_sequence": 1273,
+   "F1_pass": 848
+  },
+  "ref_funnel": {
+   "hits": 12451,
+   "with_sequence": 12451,
+   "F1_pass": 9057,
+   "F2_pass": 5033,
+   "F3_pass": 3401,
+   "F4_pass": 3395,
+   "F6_pass": 1433
+  }
+ },
+ "checks": {
+  "G1": true,
+  "G2": true,
+  "G3": true,
+  "G4": true,
+  "G5": true,
+  "G6": true
+ },
+ "overall": "PASS"
+}

@@ -1,0 +1,182 @@
+[
+ {
+  "accession": "MGYP000136243155",
+  "min_evalue": 5.39e-18,
+  "max_ref_identity": 0.1803,
+  "length": 562
+ },
+ {
+  "accession": "MGYP000190312117",
+  "min_evalue": 3.03e-31,
+  "max_ref_identity": 0.1835,
+  "length": 312
+ },
+ {
+  "accession": "MGYP000379203387",
+  "min_evalue": 2.02e-11,
+  "max_ref_identity": 0.1793,
+  "length": 549
+ },
+ {
+  "accession": "MGYP000446899825",
+  "min_evalue": 3.1e-11,
+  "max_ref_identity": 0.18,
+  "length": 359
+ },
+ {
+  "accession": "MGYP000491239143",
+  "min_evalue": 1.6e-49,
+  "max_ref_identity": 0.1792,
+  "length": 463
+ },
+ {
+  "accession": "MGYP000519691206",
+  "min_evalue": 1.15e-15,
+  "max_ref_identity": 0.1687,
+  "length": 389
+ },
+ {
+  "accession": "MGYP000531329893",
+  "min_evalue": 3.55e-11,
+  "max_ref_identity": 0.191,
+  "length": 665
+ },
+ {
+  "accession": "MGYP000630092468",
+  "min_evalue": 7e-36,
+  "max_ref_identity": 0.2199,
+  "length": 885
+ },
+ {
+  "accession": "MGYP000944027354",
+  "min_evalue": 8.22e-17,
+  "max_ref_identity": 0.1695,
+  "length": 629
+ },
+ {
+  "accession": "MGYP001137748821",
+  "min_evalue": 1.33e-32,
+  "max_ref_identity": 0.1807,
+  "length": 879
+ },
+ {
+  "accession": "MGYP001150628905",
+  "min_evalue": 1.18e-24,
+  "max_ref_identity": 0.1718,
+  "length": 779
+ },
+ {
+  "accession": "MGYP001371339285",
+  "min_evalue": 2.91e-30,
+  "max_ref_identity": 0.2327,
+  "length": 288
+ },
+ {
+  "accession": "MGYP001414511535",
+  "min_evalue": 1.71e-14,
+  "max_ref_identity": 0.1703,
+  "length": 520
+ },
+ {
+  "accession": "MGYP001493060382",
+  "min_evalue": 1.21e-16,
+  "max_ref_identity": 0.166,
+  "length": 193
+ },
+ {
+  "accession": "MGYP002544979546",
+  "min_evalue": 5.34e-12,
+  "max_ref_identity": 0.1879,
+  "length": 440
+ },
+ {
+  "accession": "MGYP002563180881",
+  "min_evalue": 3.44e-17,
+  "max_ref_identity": 0.1831,
+  "length": 266
+ },
+ {
+  "accession": "MGYP002615086080",
+  "min_evalue": 1.26e-15,
+  "max_ref_identity": 0.2172,
+  "length": 805
+ },
+ {
+  "accession": "MGYP002959959754",
+  "min_evalue": 3.63e-15,
+  "max_ref_identity": 0.1821,
+  "length": 257
+ },
+ {
+  "accession": "MGYP003045746635",
+  "min_evalue": 2.21e-12,
+  "max_ref_identity": 0.1735,
+  "length": 589
+ },
+ {
+  "accession": "MGYP003292278926",
+  "min_evalue": 4.4e-31,
+  "max_ref_identity": 0.1866,
+  "length": 694
+ },
+ {
+  "accession": "MGYP003358075428",
+  "min_evalue": 4.46e-30,
+  "max_ref_identity": 0.2137,
+  "length": 752
+ },
+ {
+  "accession": "MGYP005936447529",
+  "min_evalue": 2.53e-20,
+  "max_ref_identity": 0.1698,
+  "length": 606
+ },
+ {
+  "accession": "MGYP006161960111",
+  "min_evalue": 3.23e-32,
+  "max_ref_identity": 0.1783,
+  "length": 227
+ },
+ {
+  "accession": "MGYP007469883765",
+  "min_evalue": 2.76e-12,
+  "max_ref_identity": 0.1643,
+  "length": 350
+ },
+ {
+  "accession": "MGYP008421695737",
+  "min_evalue": 4.8e-16,
+  "max_ref_identity": 0.1865,
+  "length": 514
+ },
+ {
+  "accession": "MGYP010229748611",
+  "min_evalue": 3.94e-19,
+  "max_ref_identity": 0.1871,
+  "length": 813
+ },
+ {
+  "accession": "MGYP010244742999",
+  "min_evalue": 4.59e-24,
+  "max_ref_identity": 0.1725,
+  "length": 524
+ },
+ {
+  "accession": "MGYP010296462802",
+  "min_evalue": 3.39e-12,
+  "max_ref_identity": 0.1921,
+  "length": 734
+ },
+ {
+  "accession": "MGYP010562674079",
+  "min_evalue": 2.37e-16,
+  "max_ref_identity": 0.1732,
+  "length": 674
+ },
+ {
+  "accession": "MGYP010923056545",
+  "min_evalue": 4.24e-12,
+  "max_ref_identity": 0.1831,
+  "length": 443
+ }
+]

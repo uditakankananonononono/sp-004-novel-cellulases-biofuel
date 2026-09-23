@@ -1,0 +1,35 @@
+{
+ "screened": 20,
+ "with_identity": 14,
+ "zero_hits": [
+  "MGYP007332108226"
+ ],
+ "errors_documented": [
+  "MGYP001772861901",
+  "MGYP002628542596",
+  "MGYP003295828062",
+  "MGYP001437983540",
+  "MGYP009755849479"
+ ],
+ "identity_median": 0.3607,
+ "identity_min": 0.0224,
+ "identity_max": 1.0,
+ "already_in_uniprot_ge90": [
+  [
+   "MGYP001480172483",
+   "A0A370GNA7",
+   0.9973
+  ],
+  [
+   "MGYP003860412909",
+   "A0A2T5PCH5",
+   0.9854
+  ],
+  [
+   "MGYP000843571747",
+   "A0A7X7NE49",
+   1.0
+  ]
+ ],
+ "incident_note": "5 of 20 screens could not complete: EBI HMMER API incident 2026-09-21/22 (job records purged immediately after submission across resubmissions; exact error trail in /tmp logs and manifest). Gates do not depend on stage C."
+}

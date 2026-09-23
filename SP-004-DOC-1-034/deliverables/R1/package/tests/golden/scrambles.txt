@@ -1,0 +1,9 @@
+Scrambled-sequence controls (frozen: results/scramble_controls.json)
+composition-preserving shuffles of 5 final candidates vs the full catalog
+
+candidate                    hits at E<=1e-10
+MGYP000000618996                            0
+MGYP000006429739                            0
+MGYP000008711156                            0
+MGYP000013064907                            0
+MGYP000013376777                            0

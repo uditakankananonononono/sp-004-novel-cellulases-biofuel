@@ -1,0 +1,152 @@
+{
+ "db": "mgnify30_c2",
+ "jobs": {
+  "Tre_XYN1_decoy": {
+   "id": "716dd022-d8d9-4757-ad3f-4eae8813d6f5",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "716dd022-d8d9-4757-ad3f-4eae8813d6f5",
+    "algo": "phmmer",
+    "database": "MGnify30-C2 - Non-singletons",
+    "elapsed": 15.257089778780937,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 128674267.0,
+    "domZ": 190.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 128674267,
+    "n_past_msv": 2655499,
+    "n_past_bias": 1778690,
+    "n_past_vit": 97406,
+    "n_past_fwd": 1083,
+    "nhits": 190,
+    "nreported": 190,
+    "nincluded": 173,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "5cf2399942b21d7b913daa21e2299674575615b651d13e2722d882476156f5ac",
+   "files": {
+    "tsv": {
+     "file": "decoy_Tre_XYN1_decoy.tsv",
+     "sha256": "7afb2552826acd8615f05c125410c283595008ca48626195b20e31af126cab06"
+    },
+    "fullfasta": {
+     "file": "decoy_Tre_XYN1_decoy.fullfasta.gz",
+     "sha256": "e15db880a5ef55600009f4dc0709ece65d0463157cf674e76560860ab4c0fe18"
+    },
+    "afa": {
+     "file": "decoy_Tre_XYN1_decoy.afa.gz",
+     "sha256": "76faf2c4b57f68ef1fc64aab6296daa3c1848fe43c5a5739eaf23f81b5f06b11"
+    },
+    "pfam_meta": {
+     "file": "decoy_Tre_XYN1_decoy.pfam.json",
+     "sha256": "00a9867866147c6fbcef67d67e46dc28744bf4a18ee6b3da75e74815db87b1fc"
+    }
+   }
+  },
+  "Gal_lysozyme_decoy": {
+   "id": "588cd41a-e285-48fa-9123-c86de32211c1",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "588cd41a-e285-48fa-9123-c86de32211c1",
+    "algo": "phmmer",
+    "database": "MGnify30-C2 - Non-singletons",
+    "elapsed": 11.434658359736204,
+    "user": 0.01,
+    "sys": 0.0,
+    "Z": 128674267.0,
+    "domZ": 186.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 128674267,
+    "n_past_msv": 2946497,
+    "n_past_bias": 1902378,
+    "n_past_vit": 102483,
+    "n_past_fwd": 1695,
+    "nhits": 186,
+    "nreported": 186,
+    "nincluded": 97,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "2a957736f66d9a4eb560ad9d194a01e138b804465204b32d06f2f442be481add",
+   "files": {
+    "tsv": {
+     "file": "decoy_Gal_lysozyme_decoy.tsv",
+     "sha256": "839531c4454c5727f55a461b7a9f1f6eb364546852ebb705a92e17458d2c1be9"
+    },
+    "fullfasta": {
+     "file": "decoy_Gal_lysozyme_decoy.fullfasta.gz",
+     "sha256": "d2b0c3546d9f7046a45a8856abed809d331681988483a88fc1afef3f944adbac"
+    },
+    "afa": {
+     "file": "decoy_Gal_lysozyme_decoy.afa.gz",
+     "sha256": "46a5308465a7d75ba9ef5a066cbb4479dd76ca56afb08f614ebaf0b8043ec890"
+    },
+    "pfam_meta": {
+     "file": "decoy_Gal_lysozyme_decoy.pfam.json",
+     "sha256": "83d2be8ecf216657b35707ba406eacc73989d9eef743f6388674f119b4be6280"
+    }
+   }
+  },
+  "Blic_amylase_decoy": {
+   "id": "e2f4f9fc-db1a-402b-925c-cc5c7af5de9d",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "e2f4f9fc-db1a-402b-925c-cc5c7af5de9d",
+    "algo": "phmmer",
+    "database": "MGnify30-C2 - Non-singletons",
+    "elapsed": 27.08119107503444,
+    "user": 0.0,
+    "sys": 0.01,
+    "Z": 128674267.0,
+    "domZ": 2163.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 128674267,
+    "n_past_msv": 2161232,
+    "n_past_bias": 1594180,
+    "n_past_vit": 104704,
+    "n_past_fwd": 4858,
+    "nhits": 2163,
+    "nreported": 2163,
+    "nincluded": 1476,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "ee27fefdd244bf034c6961d0362e048b001821d23e1d771a1f04b0a65ece52d5",
+   "files": {
+    "tsv": {
+     "file": "decoy_Blic_amylase_decoy.tsv",
+     "sha256": "3cef22339033f574afe1ed8056b03a8f56c764f785b4dfe8d992c3714e4af78c"
+    },
+    "fullfasta": {
+     "file": "decoy_Blic_amylase_decoy.fullfasta.gz",
+     "sha256": "bdcf00b220f9e1bc5fb736b26ee37a8bd95ec9ab0e8c36b89c836ce4a5d897ac"
+    },
+    "afa": {
+     "file": "decoy_Blic_amylase_decoy.afa.gz",
+     "sha256": "1e63d2811ee39de45071c451c4dd51de6d8ccd36174ecae76715ee773d48ea45"
+    },
+    "pfam_meta": {
+     "file": "decoy_Blic_amylase_decoy.pfam.json",
+     "sha256": "371fbacabd6ccb9a97bf642ed01c94614f9762a51d33319936ac865fa3bc8b2a"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "candidate": "MGYP000000618996",
+  "scrambled_hits_E<=1e-10": 0,
+  "nhits_reported": 0
+ },
+ {
+  "candidate": "MGYP000006429739",
+  "scrambled_hits_E<=1e-10": 0,
+  "nhits_reported": 2
+ },
+ {
+  "candidate": "MGYP000008711156",
+  "scrambled_hits_E<=1e-10": 0,
+  "nhits_reported": 1
+ },
+ {
+  "candidate": "MGYP000013064907",
+  "scrambled_hits_E<=1e-10": 0,
+  "nhits_reported": 2
+ },
+ {
+  "candidate": "MGYP000013376777",
+  "scrambled_hits_E<=1e-10": 0,
+  "nhits_reported": 1
+ }
+]

@@ -1,0 +1,1470 @@
+{
+ "jobs": {
+  "xcat_Tre_CBH1_GH7": {
+   "id": "4d8db9d3-2684-4fd8-8da2-1e22684484f1",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "4d8db9d3-2684-4fd8-8da2-1e22684484f1",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 5.307421859353781,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 13.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 563655,
+    "n_past_bias": 263511,
+    "n_past_vit": 17402,
+    "n_past_fwd": 216,
+    "nhits": 13,
+    "nreported": 13,
+    "nincluded": 4,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "1c0c4ffd78410be5b771f4d67edf9063d32efdda4013e9cb9f75aac6c8eb837b",
+   "files": {
+    "tsv": {
+     "file": "xcat_Tre_CBH1_GH7.tsv",
+     "sha256": "e2417748fa61e83aaf0fc6d08f8e5f6a5c9bb99eb4cb9f55e096c72f6258c383"
+    },
+    "fullfasta": {
+     "file": "xcat_Tre_CBH1_GH7.fullfasta.gz",
+     "sha256": "86a99f48762cee70971d5b84164393b8cbe1fc09034a589fd85c921a15206a75"
+    }
+   }
+  },
+  "xcat_Tre_CBH2_GH6": {
+   "id": "7b7b609f-a38f-4f22-9303-f61f23c442de",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "7b7b609f-a38f-4f22-9303-f61f23c442de",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 5.387747444212437,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 15.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 671213,
+    "n_past_bias": 299491,
+    "n_past_vit": 23520,
+    "n_past_fwd": 956,
+    "nhits": 15,
+    "nreported": 15,
+    "nincluded": 8,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "36b78a04a50f8663f6c5d3844ff45d316ae097aefe693e2a1d4b95630aa3a7d5",
+   "files": {
+    "tsv": {
+     "file": "xcat_Tre_CBH2_GH6.tsv",
+     "sha256": "0c1e11ad01fde777884fac4919a614d6f78ad851f3b312813bb286c601ccf9be"
+    },
+    "fullfasta": {
+     "file": "xcat_Tre_CBH2_GH6.fullfasta.gz",
+     "sha256": "435c04d535d53f38b15e6e9bc1b5bf62fafa4be6031d70efc9ed8c036be8a72f"
+    }
+   }
+  },
+  "xcat_Tre_EG1_GH7": {
+   "id": "e1539d60-cdda-4ea8-a51d-1275f2bb6f14",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "e1539d60-cdda-4ea8-a51d-1275f2bb6f14",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 5.32429567258805,
+    "user": 0.0,
+    "sys": 0.01,
+    "Z": 18155509.0,
+    "domZ": 17.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 627627,
+    "n_past_bias": 296319,
+    "n_past_vit": 22937,
+    "n_past_fwd": 370,
+    "nhits": 17,
+    "nreported": 17,
+    "nincluded": 9,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "3fd3ddb3e709e5d6447bd03f7200a97d9a9beb2ba0130c74a4588672b809fbba",
+   "files": {
+    "tsv": {
+     "file": "xcat_Tre_EG1_GH7.tsv",
+     "sha256": "42bc871ea87c2468757ebee7f48f9e0d613a720ff621329b3005f18b3efca9b1"
+    },
+    "fullfasta": {
+     "file": "xcat_Tre_EG1_GH7.fullfasta.gz",
+     "sha256": "00ab87d8509650eac9d495dcd6270d9fdebe1c5c630563a82f5904d1b6e491fc"
+    }
+   }
+  },
+  "xcat_Tre_EG2_GH5": {
+   "id": "8060d76f-8061-40d0-af03-293d27f21de9",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "8060d76f-8061-40d0-af03-293d27f21de9",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 4.920187070034444,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 10.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 621997,
+    "n_past_bias": 323576,
+    "n_past_vit": 27097,
+    "n_past_fwd": 1024,
+    "nhits": 10,
+    "nreported": 10,
+    "nincluded": 3,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "128f2dd90c7c7ad6835337ba6002aea8d16649a93b0c21c036afe06d318430ae",
+   "files": {
+    "tsv": {
+     "file": "xcat_Tre_EG2_GH5.tsv",
+     "sha256": "91cd8a7bb89c6a078da25a7621365a7ac483bd919713d3c4279ff7ee224a4a7c"
+    },
+    "fullfasta": {
+     "file": "xcat_Tre_EG2_GH5.fullfasta.gz",
+     "sha256": "9d76a15ba783927a53bfc8390538cbae2836cccbe8f408a34abd72ec3c76c475"
+    }
+   }
+  },
+  "xcat_Aac_BGL1_GH3": {
+   "id": "660355b4-2dd7-49a4-ac02-2d7367109657",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "660355b4-2dd7-49a4-ac02-2d7367109657",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 7.985835594125092,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 319.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 344370,
+    "n_past_bias": 243363,
+    "n_past_vit": 16559,
+    "n_past_fwd": 614,
+    "nhits": 319,
+    "nreported": 319,
+    "nincluded": 218,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "9ee436c1c1165ed41fae83d0215a36bf77bc277fdd0d7bce3e6aa22968c71bd6",
+   "files": {
+    "tsv": {
+     "file": "xcat_Aac_BGL1_GH3.tsv",
+     "sha256": "1c5c1fa592110a4e08d87b6bf3edd57ee1af1417efa32f268ebd1288f165f427"
+    },
+    "fullfasta": {
+     "file": "xcat_Aac_BGL1_GH3.fullfasta.gz",
+     "sha256": "3795a2f2e2cf16cc85fde93be636b6c3a55c0738d61a2c7281983e03dbd37bbe"
+    }
+   }
+  },
+  "xcat_Hins_EG1_GH7": {
+   "id": "f48ef105-82b7-49bf-b3bc-79abc4d541c0",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "f48ef105-82b7-49bf-b3bc-79abc4d541c0",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 4.329260328784585,
+    "user": 0.01,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 15.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 317162,
+    "n_past_bias": 232293,
+    "n_past_vit": 14429,
+    "n_past_fwd": 199,
+    "nhits": 15,
+    "nreported": 15,
+    "nincluded": 6,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "568fd134caa1048d1c551f5fd2fb27f0455aee98657900d925f319cfa58adf87",
+   "files": {
+    "tsv": {
+     "file": "xcat_Hins_EG1_GH7.tsv",
+     "sha256": "72c401c547c70c57dcf8f832f23260af1170d90092cd1098c520d52cf53ad511"
+    },
+    "fullfasta": {
+     "file": "xcat_Hins_EG1_GH7.fullfasta.gz",
+     "sha256": "293dea63fbdf6da0e294ed781f487b8c7be9f385a8f57062ba4c18c3d82cc2f6"
+    }
+   }
+  },
+  "xcat_Hins_EG6B": {
+   "id": "0a888239-7d4b-4488-ab2e-72b20bd48783",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "0a888239-7d4b-4488-ab2e-72b20bd48783",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 4.214400449767709,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 4.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 381703,
+    "n_past_bias": 281230,
+    "n_past_vit": 17323,
+    "n_past_fwd": 192,
+    "nhits": 4,
+    "nreported": 4,
+    "nincluded": 1,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "2a0baa37b4a400ba1466455dac67f148efff46e70aa76d7d19b8c3b24960abee",
+   "files": {
+    "tsv": {
+     "file": "xcat_Hins_EG6B.tsv",
+     "sha256": "bc7694d934b7c24c8661da0080b848744f7519152785d3ed6441b3f7c45c38e7"
+    },
+    "fullfasta": {
+     "file": "xcat_Hins_EG6B.fullfasta.gz",
+     "sha256": "b3915800afbdab09078ebb92789002cc12c80173558f97f6cac6c7acadf9b4f3"
+    }
+   }
+  },
+  "xcat_Hins_EG5_GH45": {
+   "id": "623059bf-efe5-4daa-83ce-1273e60aab53",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "623059bf-efe5-4daa-83ce-1273e60aab53",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 2.6408105986192822,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 7.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 398636,
+    "n_past_bias": 224058,
+    "n_past_vit": 13089,
+    "n_past_fwd": 152,
+    "nhits": 7,
+    "nreported": 7,
+    "nincluded": 1,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "d6b26b9191a2612c41477e513c403280930cfe7c5837b16e7adca4229cafa157",
+   "files": {
+    "tsv": {
+     "file": "xcat_Hins_EG5_GH45.tsv",
+     "sha256": "0e0b6c44134bd554f41dcf347df394236b3cd0f3421ff729cb9d02bb0b6c6bb7"
+    },
+    "fullfasta": {
+     "file": "xcat_Hins_EG5_GH45.fullfasta.gz",
+     "sha256": "78a5168e56db5ffce10fe536caa21866258ed5751666915908a78f35206203fd"
+    }
+   }
+  },
+  "xcat_Tfu_Cel6A_GH6": {
+   "id": "d8047785-2e53-4403-82e9-8cdbd955f0d8",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "d8047785-2e53-4403-82e9-8cdbd955f0d8",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 11.547842809930444,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 841.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 888819,
+    "n_past_bias": 409054,
+    "n_past_vit": 83757,
+    "n_past_fwd": 26278,
+    "nhits": 841,
+    "nreported": 841,
+    "nincluded": 105,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "fae037f2528fd6937ae7013e05275a4dc4a33bf833cabd7b113fca5388de5718",
+   "files": {
+    "tsv": {
+     "file": "xcat_Tfu_Cel6A_GH6.tsv",
+     "sha256": "a7f3c6a22300f33ee3c844daa4a561107f74896cad13eb2301d814859241ca86"
+    },
+    "fullfasta": {
+     "file": "xcat_Tfu_Cel6A_GH6.fullfasta.gz",
+     "sha256": "b7353403f08c4826af5cbb7c4552426b7b33976ccb32b59b928c75f8949bec16"
+    }
+   }
+  },
+  "xcat_Tfu_Cel9A_GH9": {
+   "id": "6b0b2f52-92ff-40b6-bc1d-4ec76628f0a2",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "6b0b2f52-92ff-40b6-bc1d-4ec76628f0a2",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 8.371373021043837,
+    "user": 0.0,
+    "sys": 0.01,
+    "Z": 18155509.0,
+    "domZ": 118.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 497861,
+    "n_past_bias": 254964,
+    "n_past_vit": 19967,
+    "n_past_fwd": 585,
+    "nhits": 118,
+    "nreported": 118,
+    "nincluded": 60,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "1b3c39e9a93a93986caf5b0981c4c3f6302dd3de9dbe0f6758ae237b777ddbc0",
+   "files": {
+    "tsv": {
+     "file": "xcat_Tfu_Cel9A_GH9.tsv",
+     "sha256": "e2262cac227298df833c7cbb9367eff2e5256d16525c2bebb040ae3a7fb568ff"
+    },
+    "fullfasta": {
+     "file": "xcat_Tfu_Cel9A_GH9.fullfasta.gz",
+     "sha256": "3e53d4f8e03c9d43221d56ebe41c488c0106f947ee8919866334c1044bdc9505"
+    }
+   }
+  },
+  "xcat_Tfu_Cel5A_GH5": {
+   "id": "4730f569-a836-43e7-97e6-71635ed2fbcf",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "4730f569-a836-43e7-97e6-71635ed2fbcf",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 5.085024414584041,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 61.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 553945,
+    "n_past_bias": 304066,
+    "n_past_vit": 23462,
+    "n_past_fwd": 889,
+    "nhits": 61,
+    "nreported": 61,
+    "nincluded": 38,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "15e7a2a1bd0130b71bb6369eab4a8a5469047a46db2ec00832a8fdbfbf869ed3",
+   "files": {
+    "tsv": {
+     "file": "xcat_Tfu_Cel5A_GH5.tsv",
+     "sha256": "100325b3b6a8385e287feab52a03ff595c45116d1d02ebced3f11ce8b56d0877"
+    },
+    "fullfasta": {
+     "file": "xcat_Tfu_Cel5A_GH5.fullfasta.gz",
+     "sha256": "9dd865b9567d2dfdaeb620b39454a65ccc542277fc45f34cfc96f977346652aa"
+    }
+   }
+  },
+  "xcat_Cthe_CelS_GH48": {
+   "id": "d6c82a5d-b140-4055-bf2e-3f312c3c3d7c",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "d6c82a5d-b140-4055-bf2e-3f312c3c3d7c",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 6.725705064833164,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 42.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 346735,
+    "n_past_bias": 231858,
+    "n_past_vit": 15614,
+    "n_past_fwd": 318,
+    "nhits": 42,
+    "nreported": 42,
+    "nincluded": 12,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "8e9e64b6031b5a6078ac33cebdc21036af2be17a47e5d457e5e76bb4a80757e0",
+   "files": {
+    "tsv": {
+     "file": "xcat_Cthe_CelS_GH48.tsv",
+     "sha256": "2b34758e620b545e752a001a74f5434bec4267811adab77f6813f1e2c69ef518"
+    },
+    "fullfasta": {
+     "file": "xcat_Cthe_CelS_GH48.fullfasta.gz",
+     "sha256": "d73086ed9b6c91a74427c82eca296922c7d8aae7f13e45fc8be85911622803d5"
+    }
+   }
+  },
+  "xcat_Acel_E1_GH5": {
+   "id": "ab73ad82-aa3c-42ee-a588-9fd617c497c1",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "ab73ad82-aa3c-42ee-a588-9fd617c497c1",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 33.40201093908399,
+    "user": 0.01,
+    "sys": 0.01,
+    "Z": 18155509.0,
+    "domZ": 2907.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 1264052,
+    "n_past_bias": 716047,
+    "n_past_vit": 204304,
+    "n_past_fwd": 94133,
+    "nhits": 2907,
+    "nreported": 2907,
+    "nincluded": 727,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "5bc0d439a709e17242a19f01e3bf9667fe92da565694721396ce9065a092e6cb",
+   "files": {
+    "tsv": {
+     "file": "xcat_Acel_E1_GH5.tsv",
+     "sha256": "dc21ad3aceb18febf49af8cddff826687d78e7f7a524298fa1d02fcd7425a695"
+    },
+    "fullfasta": {
+     "file": "xcat_Acel_E1_GH5.fullfasta.gz",
+     "sha256": "f94893c3202daab5520fed5862d50a9c29cbfa59330761fb90c0f36f6bfb5be1"
+    }
+   }
+  },
+  "xcat_Bsub_EG_GH5": {
+   "id": "e701dd46-c015-4ef1-9148-744e262ff308",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "e701dd46-c015-4ef1-9148-744e262ff308",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 4.883929468691349,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 76.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 400717,
+    "n_past_bias": 266394,
+    "n_past_vit": 16708,
+    "n_past_fwd": 230,
+    "nhits": 76,
+    "nreported": 76,
+    "nincluded": 56,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "e5a3e12e0fad58b61bb5e8df6b0978a4ec0d2bc33c5899c667274e504191ac62",
+   "files": {
+    "tsv": {
+     "file": "xcat_Bsub_EG_GH5.tsv",
+     "sha256": "103f19332452b2c4e1e4fd6097d47d8514ee5c8d12a2de645386df5be43035f8"
+    },
+    "fullfasta": {
+     "file": "xcat_Bsub_EG_GH5.fullfasta.gz",
+     "sha256": "cd98edcdcaa80c85c180410d180bf0db0670d017bd6e40dcb29d9fcc1df2ffea"
+    }
+   }
+  },
+  "xcat_Pfu_EG_GH12": {
+   "id": "1fb53ed8-e0a2-42e1-8db8-8e3c70e4dde1",
+   "db": "mgnify30_c5_ppfam",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "1fb53ed8-e0a2-42e1-8db8-8e3c70e4dde1",
+    "algo": "phmmer",
+    "database": "MGnify30-C5-PPfam - Pfam-poor non-singletons",
+    "elapsed": 3.852512118406594,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 18155509.0,
+    "domZ": 0.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 18155509,
+    "n_past_msv": 401707,
+    "n_past_bias": 289299,
+    "n_past_vit": 18257,
+    "n_past_fwd": 203,
+    "nhits": 0,
+    "nreported": 0,
+    "nincluded": 0,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "29f601ada2467e3ccb6d7a15800e326319a52213b7fbc37698c76a7790c658ce",
+   "files": {
+    "tsv": {
+     "file": "xcat_Pfu_EG_GH12.tsv",
+     "sha256": "947885577925da2233cd77d98842368a36c01dd48b49ea5421bac134072c6f9f"
+    },
+    "fullfasta": {
+     "file": "xcat_Pfu_EG_GH12.fullfasta.gz",
+     "sha256": "ec3c61329e429fe040933225a46ac879f0fc7934aac3f7f79a3923f8ccbe23e4"
+    }
+   }
+  },
+  "scramble_0_618996": {
+   "id": "95753782-f5b7-4ffe-9e32-101da9326d27",
+   "db": "mgnify30_c2",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "95753782-f5b7-4ffe-9e32-101da9326d27",
+    "algo": "phmmer",
+    "database": "MGnify30-C2 - Non-singletons",
+    "elapsed": 34.712724833749235,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 128674267.0,
+    "domZ": 0.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 128674267,
+    "n_past_msv": 2112005,
+    "n_past_bias": 1754653,
+    "n_past_vit": 105267,
+    "n_past_fwd": 715,
+    "nhits": 0,
+    "nreported": 0,
+    "nincluded": 0,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "346af1827e9e9d71f60e0d4430a017d41ec81bae6836afe2912e4b4749a33161",
+   "files": {
+    "tsv": {
+     "file": "scramble_0_618996.tsv",
+     "sha256": "947885577925da2233cd77d98842368a36c01dd48b49ea5421bac134072c6f9f"
+    },
+    "fullfasta": {
+     "file": "scramble_0_618996.fullfasta.gz",
+     "sha256": "f466e9379cf936b7edb61a608bf3a9819afc9d3773be0d0a0fa935d55170fdc6"
+    }
+   }
+  },
+  "scramble_1_429739": {
+   "id": "1063c0c8-f3e2-43b6-a0e1-578a4775b083",
+   "db": "mgnify30_c2",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "1063c0c8-f3e2-43b6-a0e1-578a4775b083",
+    "algo": "phmmer",
+    "database": "MGnify30-C2 - Non-singletons",
+    "elapsed": 39.33873941656202,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 128674267.0,
+    "domZ": 2.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 128674267,
+    "n_past_msv": 1857848,
+    "n_past_bias": 1216617,
+    "n_past_vit": 77622,
+    "n_past_fwd": 536,
+    "nhits": 2,
+    "nreported": 2,
+    "nincluded": 0,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "2cf2b6acf9a8abe49fb99f108aa7564b6b3b7db4965759fe8cc31d3528ab634a",
+   "files": {
+    "tsv": {
+     "file": "scramble_1_429739.tsv",
+     "sha256": "947885577925da2233cd77d98842368a36c01dd48b49ea5421bac134072c6f9f"
+    },
+    "fullfasta": {
+     "file": "scramble_1_429739.fullfasta.gz",
+     "sha256": "43d66167e296cf235cfd8413c2f4dd0b3a99c424170b007cf533e1a4a27e4379"
+    }
+   }
+  },
+  "scramble_2_711156": {
+   "id": "b4f249fe-ab82-4214-b510-b1f92cd6274e",
+   "db": "mgnify30_c2",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "b4f249fe-ab82-4214-b510-b1f92cd6274e",
+    "algo": "phmmer",
+    "database": "MGnify30-C2 - Non-singletons",
+    "elapsed": 35.21529930550605,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 128674267.0,
+    "domZ": 1.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 128674267,
+    "n_past_msv": 1879836,
+    "n_past_bias": 1428896,
+    "n_past_vit": 90927,
+    "n_past_fwd": 771,
+    "nhits": 1,
+    "nreported": 1,
+    "nincluded": 0,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "254c80fe01776f1bfc7ff23ebf0989bdabf3ed65d90c5517ac0740703c77685e",
+   "files": {
+    "tsv": {
+     "file": "scramble_2_711156.tsv",
+     "sha256": "947885577925da2233cd77d98842368a36c01dd48b49ea5421bac134072c6f9f"
+    },
+    "fullfasta": {
+     "file": "scramble_2_711156.fullfasta.gz",
+     "sha256": "8abd20ed4499876e72582d8ff8083234adb6405ba4cfab22513d4a8620f81a4c"
+    }
+   }
+  },
+  "scramble_3_064907": {
+   "id": "d5eb244d-aa75-4aa0-9a68-6a5c9177f85d",
+   "db": "mgnify30_c2",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "d5eb244d-aa75-4aa0-9a68-6a5c9177f85d",
+    "algo": "phmmer",
+    "database": "MGnify30-C2 - Non-singletons",
+    "elapsed": 34.15925378445536,
+    "user": 0.0,
+    "sys": 0.01,
+    "Z": 128674267.0,
+    "domZ": 2.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 128674267,
+    "n_past_msv": 2044349,
+    "n_past_bias": 1568387,
+    "n_past_vit": 94197,
+    "n_past_fwd": 674,
+    "nhits": 2,
+    "nreported": 2,
+    "nincluded": 0,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "03c5542795c7d46e0a1d70ce0cce73b5b1ba7c01d3217548d209e9aa3707304d",
+   "files": {
+    "tsv": {
+     "file": "scramble_3_064907.tsv",
+     "sha256": "947885577925da2233cd77d98842368a36c01dd48b49ea5421bac134072c6f9f"
+    },
+    "fullfasta": {
+     "file": "scramble_3_064907.fullfasta.gz",
+     "sha256": "8e23b2c1f64821a1e77e3182446392161f38c79a290678a1b8fcaf99cf0abafe"
+    }
+   }
+  },
+  "scramble_4_376777": {
+   "id": "63a4bc8a-3f1c-4469-9497-ffd101dfb8f5",
+   "db": "mgnify30_c2",
+   "status": "SUCCESS",
+   "db_version": "2026_07",
+   "stats": {
+    "id": "63a4bc8a-3f1c-4469-9497-ffd101dfb8f5",
+    "algo": "phmmer",
+    "database": "MGnify30-C2 - Non-singletons",
+    "elapsed": 41.51124070864171,
+    "user": 0.0,
+    "sys": 0.0,
+    "Z": 128674267.0,
+    "domZ": 1.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 128674267,
+    "n_past_msv": 2017690,
+    "n_past_bias": 1232910,
+    "n_past_vit": 78889,
+    "n_past_fwd": 710,
+    "nhits": 1,
+    "nreported": 1,
+    "nincluded": 1,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "e89f155f3cf03763cdf25702e0bf5ab775c456b7864fd93e0d4793b1c64bcf22",
+   "files": {
+    "tsv": {
+     "file": "scramble_4_376777.tsv",
+     "sha256": "99e50ed4c6596da9b64e12694b607350dac741b8804b139efa03e6adf966e620"
+    },
+    "fullfasta": {
+     "file": "scramble_4_376777.fullfasta.gz",
+     "sha256": "438b0e12326b5451ac47eb0f7075120afb982b300593120acf4f9af47f94e3b7"
+    }
+   }
+  },
+  "uniprot_750544": {
+   "id": "c1faae1a-261c-407b-84a2-bcf7b92285cc",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "c1faae1a-261c-407b-84a2-bcf7b92285cc",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 21.232142247259617,
+    "user": 0.0,
+    "sys": 0.01,
+    "Z": 245001337.0,
+    "domZ": 2380.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 7560292,
+    "n_past_bias": 3895841,
+    "n_past_vit": 314960,
+    "n_past_fwd": 24160,
+    "nhits": 2380,
+    "nreported": 2380,
+    "nincluded": 2371,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "9ae298f2d8c5d3ba286f2fc5e28917009f8da72dd65def4f8c7ad126861139e2",
+   "files": {
+    "tsv": {
+     "file": "uniprot_750544.tsv",
+     "sha256": "93d55a66f0e09a5585959e92d6210baf50398a3dec9d85f60852417ddf4ce8aa"
+    },
+    "fullfasta": {
+     "file": "uniprot_750544.fullfasta.gz",
+     "sha256": "235df2a9f9cabd1ea16591ed314252ccc46b2b4f9e7da5cc4e86c3c936d7b9f9"
+    }
+   }
+  },
+  "uniprot_172483": {
+   "id": "06dc3626-28c7-4d86-9541-aa9634db9d6e",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "06dc3626-28c7-4d86-9541-aa9634db9d6e",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 16.86024998128414,
+    "user": 0.01,
+    "sys": 0.02,
+    "Z": 245001337.0,
+    "domZ": 5481.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 5385525,
+    "n_past_bias": 3677187,
+    "n_past_vit": 265787,
+    "n_past_fwd": 9286,
+    "nhits": 5481,
+    "nreported": 5481,
+    "nincluded": 4758,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "2ae849b81e8634ad9a98efdda57848ac8021dae1fd2d8aa4ebc025f5470789f5",
+   "files": {
+    "tsv": {
+     "file": "uniprot_172483.tsv",
+     "sha256": "8fc4672bb1dda2b960f3117788a064c214fc32293a14366a2a2f0c9e1b2fab94"
+    },
+    "fullfasta": {
+     "file": "uniprot_172483.fullfasta.gz",
+     "sha256": "5fc658a50bf77c4ce1d56ae3b39ca85edf49c84256fc09601e6a69a5f3596cee"
+    }
+   }
+  },
+  "uniprot_412909": {
+   "id": "79fd8812-eb64-4ac5-acfb-9e1d55911877",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "79fd8812-eb64-4ac5-acfb-9e1d55911877",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 15.7251638174057,
+    "user": 0.03,
+    "sys": 0.05,
+    "Z": 245001337.0,
+    "domZ": 25766.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 7540554,
+    "n_past_bias": 4693416,
+    "n_past_vit": 351366,
+    "n_past_fwd": 37474,
+    "nhits": 25766,
+    "nreported": 25766,
+    "nincluded": 20025,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "2b69949ebb999b57a22ebe226ae436cd2ef699632c76e1b4632cf5c4939ca554",
+   "files": {
+    "tsv": {
+     "file": "uniprot_412909.tsv",
+     "sha256": "cfa6471b40e395968a724dd0a249487c9d165f8fb84cf7d85613b919d8b49f57"
+    },
+    "fullfasta": {
+     "file": "uniprot_412909.fullfasta.gz",
+     "sha256": "23624b09a2b9467f59fd2cb2fa79b416e91634bbc89b2c2f491bbe0f9cd6b386"
+    }
+   }
+  },
+  "uniprot_636802": {
+   "id": "c6286ae5-895f-4299-af09-db8ff21348b5",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "c6286ae5-895f-4299-af09-db8ff21348b5",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 15.513949632644653,
+    "user": 0.01,
+    "sys": 0.02,
+    "Z": 245001337.0,
+    "domZ": 9076.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 10226973,
+    "n_past_bias": 5820796,
+    "n_past_vit": 639421,
+    "n_past_fwd": 51214,
+    "nhits": 9076,
+    "nreported": 9076,
+    "nincluded": 7647,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "d97d6e341d6b9aea195d2209002659504c883cc3801f79f1e30901851e3ef114",
+   "files": {
+    "tsv": {
+     "file": "uniprot_636802.tsv",
+     "sha256": "b409585ef26177f9cd72e72a10084f26bb7e1d510ea42ba389b206c607624dcc"
+    },
+    "fullfasta": {
+     "file": "uniprot_636802.fullfasta.gz",
+     "sha256": "3afc1314604c27d628c8cffd3dd34bae3783d4e40476ce39856c34c413bb6513"
+    }
+   }
+  },
+  "uniprot_714441": {
+   "id": "f3d28a72-0128-45bb-b791-ae7b8b5b005c",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "f3d28a72-0128-45bb-b791-ae7b8b5b005c",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 18.330101743340492,
+    "user": 0.0,
+    "sys": 0.02,
+    "Z": 245001337.0,
+    "domZ": 8878.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 6142735,
+    "n_past_bias": 4783836,
+    "n_past_vit": 352592,
+    "n_past_fwd": 23525,
+    "nhits": 8878,
+    "nreported": 8878,
+    "nincluded": 5877,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "c644c0086c44d29eb19df96e376159302de7451b34de595e375672469b4dcc79",
+   "files": {
+    "tsv": {
+     "file": "uniprot_714441.tsv",
+     "sha256": "1a327c2014df6f9229e31f117d9c25b5d5c487b46dc49a3b7c19b224ad923ca1"
+    },
+    "fullfasta": {
+     "file": "uniprot_714441.fullfasta.gz",
+     "sha256": "b917965855c9fa7d4e51fb6cd47ca0f3e187ac769341f24684c0b09facff361d"
+    }
+   }
+  },
+  "uniprot_204075": {
+   "id": "1ed95081-6992-40c1-b839-65a5584dbd77",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "1ed95081-6992-40c1-b839-65a5584dbd77",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 50.54362205415964,
+    "user": 0.02,
+    "sys": 0.03,
+    "Z": 245001337.0,
+    "domZ": 9869.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 18256817,
+    "n_past_bias": 8886499,
+    "n_past_vit": 2227716,
+    "n_past_fwd": 624576,
+    "nhits": 9869,
+    "nreported": 9869,
+    "nincluded": 9719,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "a208248086e6b6fe7fd86d8c118da0b719304bc0ce0813c339e1855ce0c46dd6",
+   "files": {
+    "tsv": {
+     "file": "uniprot_204075.tsv",
+     "sha256": "204117115d92845ba3ba3bd4f93ae8e764d1088bdc20a9ff321f7c99db7d9da0"
+    },
+    "fullfasta": {
+     "file": "uniprot_204075.fullfasta.gz",
+     "sha256": "c0f7972c8efe1bda2a37620e4566b4a128e6df915ba8714798cdff30ce41f0a8"
+    }
+   }
+  },
+  "uniprot_847829": {
+   "id": "cccd3d60-559d-4bdb-9258-0c24eaca4270",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "cccd3d60-559d-4bdb-9258-0c24eaca4270",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 16.574110850691795,
+    "user": 0.01,
+    "sys": 0.02,
+    "Z": 245001337.0,
+    "domZ": 9729.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 7979914,
+    "n_past_bias": 5808604,
+    "n_past_vit": 451418,
+    "n_past_fwd": 14833,
+    "nhits": 9729,
+    "nreported": 9729,
+    "nincluded": 9693,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "c0c024c1ecb01e4b0059dccb14335184823209c6574a1ad3fe1a125588bf2a9d",
+   "files": {
+    "tsv": {
+     "file": "uniprot_847829.tsv",
+     "sha256": "a3edecaaf5e4c4e6ad7b8cd99556bb775581c6cc28c132964e50d9cdc1c2971d"
+    },
+    "fullfasta": {
+     "file": "uniprot_847829.fullfasta.gz",
+     "sha256": "4e3143463cdc6a5fb603d290741bc05208bf74371ec488a7d417b8aad200cafd"
+    }
+   }
+  },
+  "uniprot_695315": {
+   "id": "346a8ab5-f2d2-4328-a531-8e8424b2cc11",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "346a8ab5-f2d2-4328-a531-8e8424b2cc11",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 37.11378688365221,
+    "user": 0.05,
+    "sys": 0.12,
+    "Z": 245001337.0,
+    "domZ": 80825.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 13107109,
+    "n_past_bias": 8681125,
+    "n_past_vit": 1721255,
+    "n_past_fwd": 402933,
+    "nhits": 80825,
+    "nreported": 80825,
+    "nincluded": 73147,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "1221afcddbae705dd8230e8cda42d310b03359433de7a21b953bb6bc1af08dbd",
+   "files": {
+    "tsv": {
+     "file": "uniprot_695315.tsv",
+     "sha256": "ca19213d208b2aec5bf0cb8501bf3d488449891a5455e96c2d546eb83aa10f49"
+    },
+    "fullfasta": {
+     "file": "uniprot_695315.fullfasta.gz",
+     "sha256": "230689feac2c93fb8d0abc31828ca4850c64b4d8e8828d1a5f85a706ac1c8f49"
+    }
+   }
+  },
+  "uniprot_933065": {
+   "id": "4657af4f-f902-4509-8696-da6d2f4524dd",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "4657af4f-f902-4509-8696-da6d2f4524dd",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 15.887275852262974,
+    "user": 0.04,
+    "sys": 0.08,
+    "Z": 245001337.0,
+    "domZ": 19937.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 9476810,
+    "n_past_bias": 3691668,
+    "n_past_vit": 356979,
+    "n_past_fwd": 51681,
+    "nhits": 19937,
+    "nreported": 19937,
+    "nincluded": 16023,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "f924f0692d5d5eefc053d8cb7dc3f66f50c2c7083fa9fdad513c9ca0af5bcced",
+   "files": {
+    "tsv": {
+     "file": "uniprot_933065.tsv",
+     "sha256": "e5e680d4350ef565aa5adc82a6fc7809b7450dab50f9526386b344cbe9dc400f"
+    },
+    "fullfasta": {
+     "file": "uniprot_933065.fullfasta.gz",
+     "sha256": "01dbbef4d24c572868561bfe6beed1f6a5c664d4dd3db7d65b88a7a573a5ac0c"
+    }
+   }
+  },
+  "uniprot_059304": {
+   "id": "aae76db1-97e9-4054-a02e-a74377c3e9b9",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "aae76db1-97e9-4054-a02e-a74377c3e9b9",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 29.804971501231194,
+    "user": 0.01,
+    "sys": 0.02,
+    "Z": 245001337.0,
+    "domZ": 8291.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 12604746,
+    "n_past_bias": 5676403,
+    "n_past_vit": 934822,
+    "n_past_fwd": 112269,
+    "nhits": 8291,
+    "nreported": 8291,
+    "nincluded": 7145,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "a621a54ae96857aa20803b35b2a911d07418393467cb9b8effa78a0e68938b29",
+   "files": {
+    "tsv": {
+     "file": "uniprot_059304.tsv",
+     "sha256": "c2bfccb189a56f13dcdf066aa7000ee60cd2439a5a58b050dd7558c4476ed18f"
+    },
+    "fullfasta": {
+     "file": "uniprot_059304.fullfasta.gz",
+     "sha256": "4de330a60aaedd794bc94523d860edcaf07c5d23a6e1904be1ae7cbf3a790edf"
+    }
+   }
+  },
+  "uniprot_140987": {
+   "id": "c1b79706-2beb-4a5e-94a3-e4cdd9bb26cf",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "c1b79706-2beb-4a5e-94a3-e4cdd9bb26cf",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 13.404594480991364,
+    "user": 0.01,
+    "sys": 0.02,
+    "Z": 245001337.0,
+    "domZ": 10758.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 6560833,
+    "n_past_bias": 4631028,
+    "n_past_vit": 358700,
+    "n_past_fwd": 17042,
+    "nhits": 10758,
+    "nreported": 10758,
+    "nincluded": 9014,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "a05702a479f98406354095146eeeeb13a3a4526def285124a538e6e58d452d74",
+   "files": {
+    "tsv": {
+     "file": "uniprot_140987.tsv",
+     "sha256": "83c5bfd4a35ed6694350e0ccfddde98017b88722b03c52f09ab5476604d0973a"
+    },
+    "fullfasta": {
+     "file": "uniprot_140987.fullfasta.gz",
+     "sha256": "8ddce73bea266db08db704466980b6cc31ddc28a25fbd200570aebe7998f8c7a"
+    }
+   }
+  },
+  "uniprot_071737": {
+   "id": "16d6422d-6a0a-4fda-b24e-b350ad7dc019",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "16d6422d-6a0a-4fda-b24e-b350ad7dc019",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 12.840124621987343,
+    "user": 0.03,
+    "sys": 0.06,
+    "Z": 245001337.0,
+    "domZ": 26345.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 7015576,
+    "n_past_bias": 4417431,
+    "n_past_vit": 343606,
+    "n_past_fwd": 43621,
+    "nhits": 26345,
+    "nreported": 26345,
+    "nincluded": 19590,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "7886832dbf3ab56e0f6c5f9b1c5a684baa5233ea65e69dbe2b41509191f379de",
+   "files": {
+    "tsv": {
+     "file": "uniprot_071737.tsv",
+     "sha256": "ae17376e6150eaeeffb72d6d2a30626aa7b7aab2c43d28cfff9b20b6d52b5091"
+    },
+    "fullfasta": {
+     "file": "uniprot_071737.fullfasta.gz",
+     "sha256": "cb4916b00ce34a953ee14b949a2f76a22061f945be185019e021ba763d965991"
+    }
+   }
+  },
+  "uniprot_571747": {
+   "id": "8d02c1b6-c729-4898-862a-fdbd3029be0a",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "8d02c1b6-c729-4898-862a-fdbd3029be0a",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 14.942415617406368,
+    "user": 0.0,
+    "sys": 0.02,
+    "Z": 245001337.0,
+    "domZ": 6775.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 5596456,
+    "n_past_bias": 4185599,
+    "n_past_vit": 285157,
+    "n_past_fwd": 14019,
+    "nhits": 6775,
+    "nreported": 6775,
+    "nincluded": 5546,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "08843bd226a89c2161252e1cd605c5748fc9a0ee08ccb62c2805d115865a7288",
+   "files": {
+    "tsv": {
+     "file": "uniprot_571747.tsv",
+     "sha256": "f6c0d2ef190d280d1d09db8e9ff6fa8a498146c8e9230abee3cde3b38f7ffbfe"
+    },
+    "fullfasta": {
+     "file": "uniprot_571747.fullfasta.gz",
+     "sha256": "167c8896729e123c2011953ecd1c935168f8eaa02e5582008182308009a567e7"
+    }
+   }
+  },
+  "uniprot_845003": {
+   "id": "facc900f-4512-428c-9735-195a5497529c",
+   "db": "uniprot",
+   "status": "SUCCESS",
+   "db_version": "2025_01",
+   "stats": {
+    "id": "facc900f-4512-428c-9735-195a5497529c",
+    "algo": "phmmer",
+    "database": "uniprot",
+    "elapsed": 49.14497568458319,
+    "user": 0.02,
+    "sys": 0.03,
+    "Z": 245001337.0,
+    "domZ": 15227.0,
+    "Z_setby": 0,
+    "domZ_setby": 0,
+    "nmodels": 1,
+    "nseqs": 245001337,
+    "n_past_msv": 16581455,
+    "n_past_bias": 7103517,
+    "n_past_vit": 1618156,
+    "n_past_fwd": 442477,
+    "nhits": 15227,
+    "nreported": 15227,
+    "nincluded": 10871,
+    "ngained": null,
+    "nlost": null,
+    "ndropped": null,
+    "first_gained_index": null
+   },
+   "result_sha256": "140d6985c52db4bb3003d0ed720c359c592e31cdbd1511a5fd4b7b73a0276140",
+   "files": {
+    "tsv": {
+     "file": "uniprot_845003.tsv",
+     "sha256": "5eb61ec55be6023d1c420236fcba81e6d156734b2e3547dcef2ad7fda7321350"
+    },
+    "fullfasta": {
+     "file": "uniprot_845003.fullfasta.gz",
+     "sha256": "6107e159f40841c0a9af97d3d3889eb56a658c5ff727385c8f2f7d749fe76b3f"
+    }
+   }
+  },
+  "uniprot_108226": {
+   "id": "153aa0ca-19f1-4b96-b3ca-0ab18b973e74",
+   "db": "uniprot",
+   "status": "SUBMITTED"
+  },
+  "uniprot_861901": {
+   "id": "561e0634-aaae-44fc-b526-3b609ee04cbd",
+   "db": "uniprot",
+   "status": "SUBMITTED"
+  },
+  "uniprot_542596": {
+   "id": "31610022-4265-4a9a-88cb-3c96f3440ba4",
+   "db": "uniprot",
+   "status": "SUBMITTED"
+  },
+  "uniprot_828062": {
+   "id": "c749cc8e-2448-4276-ad67-57e2c08f873d",
+   "db": "uniprot",
+   "status": "SUBMITTED"
+  },
+  "uniprot_983540": {
+   "id": "aaf527b2-6e54-4a86-882c-c91ab8238fb2",
+   "db": "uniprot",
+   "status": "SUBMITTED"
+  },
+  "uniprot_849479": {
+   "id": "5092a7fb-2a75-4f8b-b381-898dbf1dd1a3",
+   "db": "uniprot",
+   "status": "SUBMITTED"
+  }
+ },
+ "resubmits": {
+  "uniprot_108226": 3,
+  "uniprot_861901": 3,
+  "uniprot_542596": 3,
+  "uniprot_828062": 3,
+  "uniprot_983540": 3,
+  "uniprot_849479": 3
+ }
+}

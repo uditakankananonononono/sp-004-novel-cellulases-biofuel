@@ -1,0 +1,47 @@
+{
+ "package_id": "DOC-1-034-R1-package",
+ "package_version": "1.0.0",
+ "created": "2026-09-23",
+ "kind": "packaging-only backfill (publication-length synthesis + audit tooling)",
+ "project": {
+  "doc": "DOC-1-034",
+  "sp": "SP-004",
+  "round": "R1",
+  "title": "Novel Cellulases for Biofuel Production",
+  "locked_gate_outcome": "OVERALL PASS (6/6)",
+  "final_candidates": 1433
+ },
+ "scientific_freeze": "no reprocessing, rescoring, threshold changes, candidate filtering, new statistics, new literature-derived biological claims, or outcome-dependent additions",
+ "cli_determination": "(a) read-only query/audit tool over frozen outputs",
+ "source": {
+  "repo": "https://github.com/uditakankananonononono/science-program",
+  "commit": "6cfa8a7",
+  "project_tree": "projects/SP-004-DOC-1-034",
+  "frozen_files_byte_identical_to_repo": 22,
+  "drive_folder": "https://drive.google.com/drive/folders/1WYQZH9bFnEOI1Tq8NZ6XfVg6w5cF-PZk",
+  "drive_deliverables_mirror_sha256": "20db2992fc6289563810a947d188bad377af2286b4f470c2da3b4b8cb0bde348"
+ },
+ "protocol_lock": {
+  "locked_at": "2026-09-21T21:24:00+05:30",
+  "protocol_sha256": "a90624ce91b33a59519677523df712047c86e977cc863ae9a164bb117079c17d"
+ },
+ "key_files": {
+  "paper_pdf": "paper/DOC-1-034-R1-paper.pdf",
+  "paper_source": "paper/DOC-1-034-R1-paper.tex",
+  "cli": "cli/sp004_audit.py",
+  "tests": "tests/run_tests.py",
+  "manifest": "MANIFEST.sha256"
+ },
+ "missing_artifacts": [
+  "code/ (5 analysis scripts, never committed, unrecovered)",
+  "data/processed/reference_set_final.json",
+  "protocol/PROTOCOL_LOCK.txt",
+  "results/pubmed_grounding_all.json",
+  "SP-004-raw-validation-fasta-3.tar.gz (only -3b present)",
+  "original execution environment (no requirements/image)",
+  "API-incident /tmp error trail"
+ ],
+ "verify_status": "12/12 checks PASS at packaging time",
+ "restore": "tar xzf archive; sha256sum -c MANIFEST.sha256; python3 cli/sp004_audit.py verify; python3 tests/run_tests.py",
+ "manifest_custody": "MANIFEST.sha256 lists every regular file except itself (self-manifest exception); the inventory-exhaustive verify check rejects any unlisted bytes; custody for MANIFEST.sha256 itself is the outer archive SHA-256, recorded outside the archive in CLEAN_RESTORE_EVIDENCE.txt and the release report."
+}

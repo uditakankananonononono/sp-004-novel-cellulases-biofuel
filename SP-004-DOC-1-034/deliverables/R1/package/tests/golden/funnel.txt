@@ -1,0 +1,12 @@
+Discovery funnel (frozen: results/funnel_ref.json, results/funnel_decoy.json)
+
+stage                           reference        decoy
+hits (E<=1e-5, dedup)               12451         1273
+with sequence                       12451         1273
+F1 length 180-900                    9057          848
+F2 cellulase-GH Pfam                 5033            -
+F3 E<=1e-10                          3401            -
+F4 <40% ref identity                 3395            -
+F6 catalytic D/E intact              1433            -
+
+decoy gate-counted candidates: 0 (no decoy row passed F2)

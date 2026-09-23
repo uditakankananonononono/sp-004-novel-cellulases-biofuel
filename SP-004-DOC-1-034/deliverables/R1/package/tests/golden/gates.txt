@@ -1,0 +1,13 @@
+Locked-gate evaluation (frozen: results/gate_evaluation.json)
+protocol SHA-256: a90624ce91b33a59519677523df712047c86e977cc863ae9a164bb117079c17d
+locked at: 2026-09-21T21:24:00+05:30
+
+gate locked rule (abbrev.)                                      threshold    observed       verdict
+G1   reference build >= 12 live-verified characterized cellulases >=12         15             PASS
+G2   distinct candidates pass F1,F2,F3,F4,F6                    >=40         1433           PASS
+G3   of G2, novelty <30% to every reference                     >=15         1389           PASS
+G4   top-50 with RCSB template E<=1e-10, cov>=60%               >=15         16/50          PASS
+G5   thermostability proxy (aliphatic>=64.44 AND >=2 Cys)       >=5          1266           PASS
+G6   decoy yield <= 10% of reference yield                      <=9.55/query 0/query (ref 95.53/query) PASS
+
+overall: PASS

@@ -1,0 +1,58 @@
+{
+  "protocol_version": "1.0-locked-before-analysis",
+  "locked_at": "2026-09-21T21:24:00+05:30",
+  "project": "SP-004",
+  "source_topic": "First list #34: Discovering Novel Cellulases for Biofuel Production",
+  "title": "Metagenome-scale discovery of divergent candidate cellulases for lignocellulosic biofuel processing",
+  "question": "Does the MGnify metagenomic protein catalog contain glycoside-hydrolase cellulase homologs that (a) retain the catalytic machinery of characterized cellulase GH families, (b) carry cellulase-family Pfam domains, (c) are substantially sequence-divergent from every experimentally characterized cellulase in the reference panel, and (d) retain structural template support in the PDB?",
+  "claims_boundary": "Computational nomination only. No enzymatic activity is claimed for any candidate; no wet-lab validation was performed. Candidates are ranked hypotheses for experimental follow-up in biofuel enzyme-cocktail development.",
+  "reference_set": {
+    "definition": "15 experimentally characterized cellulases across CAZy families GH3, GH5, GH6, GH7, GH9, GH12, GH45, GH48, each verified live in UniProtKB with active-site features, Pfam cross-references and (mostly) PDB structures; mature sequences (signal peptide removed where annotated).",
+    "accessions": ["P62694","P07987","P07981","P07982","P48825","P56680","Q7SIG5","P43316","P26222","P26221","Q01786","P0C2S5","P54583","P10475","Q9V2T0"],
+    "decoys": {"P36218": "Trichoderma reesei xylanase 1 (GH11) - adjacent hemicellulase", "P00698": "hen lysozyme C (GH22)", "P06278": "Bacillus licheniformis alpha-amylase (GH13)"},
+    "family_mechanisms_grounded_from_cazy_org": {"GH5":"retaining","GH7":"retaining","GH12":"retaining","GH44":"retaining","GH1":"retaining","GH3":"retaining","GH6":"inverting","GH9":"inverting","GH45":"inverting","GH48":"inverting"}
+  },
+  "search": {
+    "engine": "phmmer via EBI HMMER API v1",
+    "database": "MGnify30-C2 - Non-singletons (version recorded at run time)",
+    "queries": "15 mature reference cellulases (primary) + 3 decoy hydrolases (specificity control), identical settings",
+    "collection_rule": "all hits with E-value <= 1e-5 to at least one reference, union across references, deduplicated by MGYP accession; decoy hits kept in a SEPARATE pool"
+  },
+  "filters": {
+    "F1_length": "180 <= length <= 900 amino acids (covers the reference panel span 213-880 aa including multi-domain cellulases)",
+    "F2_domain": "candidate Pfam annotations (MGnify hit metadata) must include at least one catalytic cellulase-GH Pfam family from the locked set {PF00150 GH5, PF01341 GH6, PF00840 GH7, PF00759 GH9, PF01670 GH12, PF02015 GH45, PF02011 GH48, PF01915 GH3}; candidates with no Pfam annotation are recorded as not-evaluable and excluded from gate counts",
+    "F3_homology": "minimum phmmer E-value across the 15 references <= 1e-10",
+    "F4_novelty": "maximum global pairwise identity to any of the 15 references < 40%; Biopython PairwiseAligner global, BLOSUM62, open -11, extend -1; identity = identical positions / alignment columns",
+    "F6_catalytic": "using the phmmer aligned-FASTA (afa) of the candidate's best reference hit that has UniProt ACT_SITE annotation, EVERY annotated catalytic position must align to Asp or Glu in the candidate; candidates whose reference hits all lack ACT_SITE annotation are recorded not-evaluable and excluded from gate counts",
+    "F5_structure": "top 50 F1-F4+F6 survivors by E-value: RCSB sequence search E <= 1e-10 plus local-alignment coverage >= 60% of candidate length"
+  },
+  "positive_controls": {
+    "C1": ">= 85% of the 15 references must pass F1 (validates the length window)",
+    "C3": "decoy-derived pools (xylanase, lysozyme, amylase queries) screened with IDENTICAL F1,F2,F3,F4,F6 filters must yield <= 10% as many gate-counted candidates as the reference pool (specificity)"
+  },
+  "success_gate": {
+    "all_required": [
+      "G1: reference build contains >= 12 live-verified characterized cellulases (met: 15)",
+      "G2: >= 40 distinct MGnify candidates pass F1, F2, F3, F4 and F6",
+      "G3: >= 15 of the G2 candidates have novelty < 30% to every reference",
+      "G4: >= 15 of the top-50 candidates examined in F5 have RCSB template E <= 1e-10 with >= 60% coverage",
+      "G5: >= 5 G2 candidates have aliphatic index >= the reference-panel median AND >= 2 cysteine residues",
+      "G6: decoy pools yield <= 10% as many gate-counted candidates as the reference pool"
+    ]
+  },
+  "sensitivity_analyses": [
+    "candidate counts at F4 novelty thresholds 25/30/35/40 percent",
+    "candidate counts at F3 E-value thresholds 1e-5 / 1e-10 / 1e-20"
+  ],
+  "failure_policy": "If any required gate fails, classify SP-004 as negative, preserve all raw artifacts, hit tables, rejected sets and figures, and do not produce a success paper.",
+  "leakage_controls": [
+    "gate and thresholds locked before any hit table is inspected",
+    "reference panel fixed before searching; Pfam catalytic set fixed from the panel's own live annotations",
+    "raw API responses hashed (SHA-256) at download; results derive only from hashed artifacts",
+    "decoy pools processed identically but counted separately; no simulated data"
+  ],
+  "provenance": {
+    "sources": ["EBI HMMER API v1 (MGnify30-C2)", "UniProtKB REST", "RCSB PDB", "NCBI eutils (PubMed)", "CAZy family pages (mechanism grounding)"],
+    "artifacts": "data/raw/** with per-file SHA-256; HMMER job UUIDs in results/run_manifest*.json"
+  }
+}
